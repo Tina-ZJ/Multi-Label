@@ -33,7 +33,7 @@ tf.app.flags.DEFINE_integer("num_sentences", 1, "number of sentences in the docu
 tf.app.flags.DEFINE_integer("hidden_size",300,"hidden size")
 tf.app.flags.DEFINE_string("predict_target_file","data/test.txt","target file path for final prediction")
 tf.app.flags.DEFINE_string("predict_source_file",'data/test.predict',"target file path for final prediction")
-tf.app.flags.DEFINE_float("threshold", 0.02, "test threshold")
+tf.app.flags.DEFINE_float("threshold", 0.5, "test threshold")
 tf.app.flags.DEFINE_string("label_index_path","data/cid3_name.txt",'path of cid3')
 tf.app.flags.DEFINE_string("term_index_path","data/term_index.txt",'path of term')
 tf.app.flags.DEFINE_string("char_index_path","data/char_index.txt",'path of term')
