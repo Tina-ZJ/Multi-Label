@@ -14,7 +14,7 @@ Train:
 
 Test:
 
-1.python predit.py
+1. python predit.py
 
 
 #######  Bert #######
@@ -26,13 +26,13 @@ Prepare:
 
 1. Download the google base model for chinese: https://github.com/google-research/bert
 
-2.put the chinese_L-12_H-768_A-12 in Bert directory
+2. put the chinese_L-12_H-768_A-12 in Bert directory
 
 Train:
 
-1.cd Bert/example
+1. cd Bert/example
 
-2.bash train.sh
+2. bash train.sh
 
 Test:
 
