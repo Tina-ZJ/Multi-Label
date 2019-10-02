@@ -7,6 +7,7 @@ Data format
 query \t segwords \t label1,label2
 
 Train:
+
 1. cd BiGUU+attention
 
 2. bash train.sh
@@ -22,6 +23,7 @@ Data format
 query \t label1,label2,label3
 
 Prepare:
+
 1. Download the google base model for chineses: https://github.com/google-research/bert
 
 2.put the chinese_L-12_H-768_A-12 in Bert directory
