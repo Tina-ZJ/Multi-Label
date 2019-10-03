@@ -1,7 +1,7 @@
 # Multi-Label
 Multi label for text classification
 
-#######  BiGRU+attention #######
+######################  BiGRU+attention #################
 
 Data format
 query \t segwords \t label1,label2
@@ -17,7 +17,7 @@ Test:
 1. python predit.py
 
 
-#######  Bert #######
+#######################  Bert ############################
 
 Data format
 query \t label1,label2,label3
@@ -36,4 +36,4 @@ Train:
 
 Test:
 
-1.bash predict.sh
+1. bash predict.sh
